@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: karla, sans-serif;
+}
+
+.top-element {
+  height: 40px;
+  /* background-color: black; */
+}
+
+.mainName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -2px;
+  font-size: 31px;
+}
+
+.mainButton {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+}
